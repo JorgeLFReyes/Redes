@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seguridad WiFi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="menu">
+      <a href="#inicio">
+        <i class="fa-solid fa-wifi"></i
+        ><span style="padding: 0.5rem; font-weight: bold">Jorge Reyes</span>
+      </a>
+      <div class="menu-bar" href="#inicio">Seguridad WPA2</div>
+    </section>
+    <header id="inicio">
+      <img src="assets/wifi-ex.jpg" />
+      <h1>
+        <span class="top"></span>
+        <span class="right"></span>
+        <span class="bottom"></span>
+        <span class="left"></span>
+        <span class="titulo"> Seguridad WPA2 </span>
+        <span class="subtitulo">Jorge Luis Francisco Reyes</span>
+      </h1>
+    </header>
+    <section class="seccion">
+      <section class="seccion-max flex seguridad">
+        <img src="assets/wep.webp" alt="" />
+        <article class="seguridad-child">
+          <h2>Seguridad WPA2</h2>
+          <p>
+            WPA2(Acceso protegido Wi-Fi 2) es un protocolo cifrado de seguridad
+            que protege el tráfico de Internet en redes inalámbricas.
+          </p>
+          <p>
+            La segunda generación del protocolo de seguridad de Acceso protegido
+            Wi-Fi(WPA2) aborda errores anteriores y ofrece un cifrado más
+            potente.
+          </p>
+          <p>
+            Desde su lazamiento en 2004, se ha convertido en el estándar de
+            seguridad de las redes de WiFi
+          </p>
+        </article>
+      </section>
+    </section>
+
+    <section class="seccion">
+      <section class="seccion-max flex funcionamiento">
+        <article class="funcionamiento-child">
+          <h2>Funcionamiento</h2>
+          <p>
+            WPA2 o también llamado RSN(Road Segurity Network) desarrollado por
+            la <b>wifi alliance</b> surge del estandar y triple
+            <b>802.11 2004</b> después de la versión de transición que fue el
+            WPA, este estándar introduce dos nuevos protocolos:
+            <b>Four way handshake y Group key handshake</b>
+          </p>
+          <p>
+            La segunda generación del protocolo de seguridad de Acceso protegido
+            Wi-Fi(WPA2) aborda errores anteriores y ofrece un cifrado más
+            potente.
+          </p>
+          <p>
+            Desde su lazamiento en 2004, se ha convertido en el estándar de
+            seguridad de las redes de WiFi
+          </p>
+          <p>
+            La autenticación se divide en una versión de clave pre-compartida
+            WPA2 personal y una con autenticación 802.11X AP, WPA2 enterprise.
+            La autenticación inicial es llevada a cabo usando una clave
+            compartida PSK o haciendo un intercambio mediante el EAP, después de
+            esto una llave secreta compartida es generada llamada PMK, en donde
+            esta será igual a PSK en caso de usarse WPA2 personal o será
+            derivado de los parámetros EAP dados por el servidor de
+            autenticación en mi caso de WPA2 Enterprise, IEEE 800 2.1X este
+            estándar introduce un método seguro para poder autenticar a usuarios
+            que quieren acceder a la red y para el intercambio de claves
+            criptográficas de manera segura.
+          </p>
+          <p>
+            Se basa en el protocolo EAP sobre una red LAN llamado apple EAPol,
+            esta forma de autenticación consta de tres partes: un suplicante,
+            una auténticador y un servidor de autenticación.
+          </p>
+          <ul>
+            <li>
+              El suplicante es el dispositivo cliente que quiere conectarse a la
+              red.
+            </li>
+            <li>La auténtica dor es un punto de acceso.</li>
+            <li>
+              El servidor de autenticación es aquel que ejecuta software que
+              soporta radios.
+            </li>
+          </ul>
+          <section class="galeria">
+            <a class="item1 active pos-relative" href="#modal-1"
+              ><img src="assets/wep.webp" alt="" />
+              <span>Cifrado</span>
+            </a>
+            <a class="item2 active pos-relative" href="#modal-2"
+              ><img src="assets/wap.webp" alt="" /> <span>CCM</span></a
+            >
+            <a class="item3 active pos-relative" href="#modal-3"
+              ><img src="assets/wpa2.jpg" alt="" /><span>CCMP</span></a
+            >
+            <a class="item4 active pos-relative" href="#modal-4"
+              ><img src="assets/wifiwpa3.jpg" alt="" /><span
+                >Fort Wayne handshake
+              </span></a
+            >
+            <a class="item5 active pos-relative" href="#modal-5"
+              ><img src="assets/wpa2.jpg" alt="" /><span>PTK</span></a
+            >
+            <a class="item6 active pos-relative" href="#modal-6"
+              ><img src="assets/wep.webp" alt="" /><span
+                >Group key handshake</span
+              ></a
+            >
+          </section>
+        </article>
+      </section>
+    </section>
+
+    <section class="modal" id="modal-1">
+      <article class="modal-child">
+        <a href="#cerrar">X</a>
+        <h2>Cifrado</h2>
+        <p>
+          Para cifrar se utiliza principalmente el protocolo de cifrado CCMP,
+          protocolo basado en el CCM. El estándar AES, el CBC-MAC a partir de un
+          cifrado de bloque en modo CBC sable blog changing, de tal modo que
+          cada bloque depende del cifrado del bloque anterior esta técnica
+          provee de autenticación e integridad al mensaje y utiliza el estándar
+          AES como ya se había dicho.
+        </p>
+      </article>
+    </section>
+    <section class="modal" id="modal-2">
+      <article class="modal-child">
+        <a href="#cerrar">X</a>
+        <h2>CCM</h2>
+        <p>
+          En CCM se utiliza primero el CBC-MAC se obtiene una etiqueta para la
+          autenticación y luego tanto el mensaje como la etiqueta se cifran con
+          el modo counter y con AES, el tamaño del bloque debe de ser de 128
+          bits y sirve para darle confidencialidad al mensaje.
+        </p>
+      </article>
+    </section>
+    <section class="modal" id="modal-3">
+      <article class="modal-child">
+        <a href="#cerrar">X</a>
+        <h2>CCMP</h2>
+        <p>
+          El protocolo plantea la utilización de información del encabezado mac,
+          la dirección del transmisor junto con el número de paquete para crear
+          un nons a usar durante ccm.
+        </p>
+        <p>
+          Utiliza una llave temporal, el nons es la información adicional para
+          la autenticación construido a partir del encabezado mac y la
+          información a transmitir, todo esto es autenticado con un nick que
+          también es cifrado al mismo tiempo que se cifra se crea un encabezado
+          ccmp que se unirá con un encabezado mac, la información cifrada y el
+          FCS para la detección y corrección de errores.
+        </p>
+      </article>
+    </section>
+    <section class="modal" id="modal-4">
+      <article class="modal-child">
+        <a href="#cerrar">X</a>
+        <h2>Fort Wayne handshake</h2>
+        <p>
+          Diseñado para que el punto de acceso y el suplicante puedan probar de
+          manera independiente que cada uno conoce el PMK sin revelar la misma,
+          lo que hacen es inflar mensajes para que sean descifrados por su
+          contraparte con el PMK por lo que la correcta obtención del texto
+          plano indicará el conocimiento de la llave.
+        </p>
+        <p>
+          El PMK dura por toda una sesión por lo que para evitar su exposición
+          se derivan otras claves, se establece entonces una llave a partir de
+          la concatenación del PMK einons, nons desde el punto de acceso es nons
+          del suplicante y la dirección mac del punto de acceso y el suplicante.
+        </p>
+        <p>
+          Después se utiliza una función pseudo aleatoria con esta concatenación
+          para generar por fin la PTK de este proceso también se generará la
+          group de PTK que se utilizará para descifrar el tráfico multicasting
+          Broadcast.
+        </p>
+      </article>
+    </section>
+    <section class="modal" id="modal-5">
+      <article class="modal-child">
+        <a href="#cerrar">X</a>
+        <h2>PTK</h2>
+        <img src="assets/ptk.jpg" alt="" />
+        <p>Intercambio de mensajes:</p>
+        <ol>
+          <li>El punto de acceso manda el ANonce al cliente.</li>
+          <li>
+            El suplicante manda su SNonce al punto de acceso junto con su MAIC
+            (Message Authentication and Integrity Code).
+          </li>
+          <li>
+            El punto de acceso manda la GTK y un numero de secuencia junto con
+            otro MIC. Este numero será utilizado con los paquetes de multicast y
+            broadcast.
+          </li>
+          <li>El suplicante manda una confirmación al punto de acceso.</li>
+        </ol>
+      </article>
+    </section>
+    <section class="modal" id="modal-6">
+      <article class="modal-child">
+        <a href="#cerrar">X</a>
+        <h2>Group key handshake</h2>
+        <p>
+          La GTK usada en una red deberá ser actualizada al expirar un tiempo
+          predefinido, así como cuando un dispositivo de la misma. Esta llave
+          también contendra una llave temporal usada para cifrar y descifrar los
+          paquetes asociados de 16 bytes.
+        </p>
+        <p>Pasos siguientes:</p>
+        <ol>
+          <li>
+            El punto de acceso manda la nueva GTK a cada suplicante en la red
+            donde está se cifra con el que está asignado al suplicante y se
+            utiliza un mic.
+          </li>
+          <li>
+            El suplicante confirma la nueva GTK y hace una réplica al punto de
+            acceso.
+          </li>
+        </ol>
+      </article>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
